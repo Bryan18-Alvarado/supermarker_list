@@ -1,0 +1,104 @@
+body{
+    font-family:'Segoe UI';
+    padding: 2rem;
+
+}
+
+/*SE COLOCA EL PUNTO CUANDO ES UNA REFERENCIA A UNA CLASE HTML*/
+.Titulo_lista{
+    width: 100%;
+    text-align: center;
+    font-size:2rem;
+    color: brown;
+}
+
+/*SE COOLOCA EL SIMBOLO NUMERAL CUANDO ES UNA REFERENCIA A UN ID  DE HTML*/
+
+#input_lista{
+    padding: 0.8rem  1rem;
+    width: 90%;
+    border-radius: 0.6rem;
+    border: 1px solid  #120337;
+    font-weight: bold;
+    font: size 1rem;
+}
+
+#boton_agregar{
+    padding: 0.5rem 1.5rem;
+    width: 30%;
+    background-color: rgb(21, 180, 111);
+    color: white;
+    font-weight: bold;
+    border-radius: 0.6rem;
+    font-size: 1rem;cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+/*FONTAWESOME*/
+.Lista_agregar_lista{
+    display: flex;
+    gap: 1rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.lista_contenedor{
+    width: 768px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 0 auto;
+    
+}
+#lista_super{
+    /*list-style: none;*/
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #694daf;
+
+
+    
+}
+
+.lista_item{
+    list-style: none;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:#694daf;
+}
+
+.lista_item > span{
+    display: inline-block;
+    margin-left:1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+}
+
+.lista_item > button{
+    margin-right: 1rem;
+}
+
+#boton_eliminar {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-size: x-small;
+    font-weight:bold;
+    border: none;
+    border-radius: 6px;
+    padding: 0.5rem;
+    color:#fdfdff;
+    background: red;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LISTA SUPERMERCADO</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div id='app'>
+        <h1 class='Titulo_lista'>⭕lista de supermercado⭕</h1>
+        <div  class='Lista_contenedor'>
+            <div class='Lista_agregar_lista'>
+                <input  id="input_lista" placeholder="Ingrese el producto:">
+                <button id="boton_agregar" type="button" onclick="guardar()">agregar</button>
+            </div>
+            <ul id="lista_super" >
+            </ul>
+        </div>  
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
